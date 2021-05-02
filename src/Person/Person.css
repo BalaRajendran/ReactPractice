@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .ListColumn {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .ListRow {margin: 5px;}
+ 
+  
+  /* Style the counter cards */
+  .ListCard{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+  /* Gif */
+  .loadingGif{
+      height: 100%;
+      width: 100%;
+  }
+.moreicon{
+      height: 20px;
+      width: 20px;
+  }
+ 
