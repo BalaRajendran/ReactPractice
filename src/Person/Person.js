@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './Person.css';
 import loadingGif from './Scan-Text-Loading-Label.gif';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, OverlayTrigger, Popover } from 'react-bootstrap';
 import PersonDetails from './PersonDetails';
 
 const Person = () => {
@@ -26,27 +25,9 @@ const Person = () => {
                 <PersonDetails personsState={personsState} /> : <img className="loadingGif" src={loadingGif} alt="Loading..."></img>}
         </div >
     )
-
-
 }
 
 export default Person;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -23,8 +23,6 @@ const popover = (props) => {
 }
 
 const PersonDetails = (props) => {
-
-    { console.log(props) }
     return (
         <div className="ListRow">
             <h1 className="App">Persons List</h1>
@@ -33,7 +31,7 @@ const PersonDetails = (props) => {
                     <div className="ListCard">
                         <p><span class="text-secondary">Name: </span>{person.name}</p>
                         <p><span class="text-secondary">Parents Name: </span> {person.parentsName}</p>
-                        <OverlayTrigger trigger="click" placement="bottom"   overlay={popover(person)}  >
+                        <OverlayTrigger trigger="click" placement="bottom" overlay={popover(person)}  >
                             <Button variant="outline-secondary">More</Button>
                         </OverlayTrigger>
                     </div>
